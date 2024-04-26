@@ -1,0 +1,18 @@
+
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+
+CREATE TABLE IF NOT EXISTS `login` (
+  `ID` int(50) NOT NULL,
+  `USERNAME` varchar(50) NOT NULL,
+  `PASSWORD` varchar(50) NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+INSERT INTO `login` (`ID`, `USERNAME`, `PASSWORD`) VALUES
+(1, 'admin', '123');
+
